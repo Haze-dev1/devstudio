@@ -41,11 +41,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Devansh" }],
   openGraph: {
-    title: "Devansh's Notebook ✏️ — Creative Dev & Builder",
-    description:
-      "The sketchbook of Devansh — a creative TypeScript developer who doodles code and builds playful digital things.",
+    title: "Devansh's Notebook",
+    description: "The sketchbook of Devansh Palsapure.",
     type: "website",
     locale: "en_US",
+  },
+  icons: {
+    icon: "/document.png",
   },
 };
 
