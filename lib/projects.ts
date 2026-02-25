@@ -27,7 +27,7 @@ export const featuredProjects: Project[] = [
       "DevFetch is a lightweight CLI tool written in Rust using Clap. It pulls and formats developer-related data cleanly inside the terminal — fast, simple, and distraction-free. Built to explore Rust ergonomics, CLI UX, and structured output formatting. A small tool, but built with care.",
     techStack: ["Rust", "Clap"],
     image: "/projects/devfetch.png",
-    liveUrl: "",
+    liveUrl: "https://devfetch-formos-studio.vercel.app/",
     githubUrl: "https://github.com/Haze-dev1/Devfetch",
     featured: true,
     color: "#ffe8d6",
@@ -47,7 +47,7 @@ export const allProjects: Project[] = [
       "A productivity-focused browser extension built with JavaScript and CSS that detects common form patterns and autofills them dynamically. Designed to reduce friction in repetitive workflows. Focused on DOM parsing, event handling, and clean UX within browser constraints.",
     techStack: ["JavaScript", "CSS", "Browser APIs"],
     image: "/projects/autofill.png",
-    liveUrl: "",
+    liveUrl: "https://addons.mozilla.org/en-US/firefox/addon/quill-ai/",
     githubUrl:
       "https://github.com/Haze-dev1/Automated_autofill_Extension-Minor_project-",
     featured: false,
