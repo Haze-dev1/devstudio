@@ -18,20 +18,20 @@ export const featuredProjects: Project[] = [
     borderColor: "#7da2ff",
   },
   {
-    id: "2",
-    slug: "devfetch",
-    title: "DevFetch 🦀",
+    id: "9",
+    slug: "quantfinal",
+    title: "QuantFinal 📈",
     description:
-      "A minimal Rust CLI tool that fetches and displays developer profile stats in the terminal.",
+      "An algorithmic trading & portfolio intelligence platform — backtesting, NLP-driven strategy generation, sentiment analysis, and automated rebalancing for Indian equity markets.",
     longDescription:
-      "DevFetch is a lightweight CLI tool written in Rust using Clap. It pulls and formats developer-related data cleanly inside the terminal — fast, simple, and distraction-free. Built to explore Rust ergonomics, CLI UX, and structured output formatting. A small tool, but built with care.",
-    techStack: ["Rust", "Clap"],
-    image: "/projects/devfetch.png",
-    liveUrl: "https://devfetch-formos-studio.vercel.app/",
-    githubUrl: "https://github.com/Haze-dev1/Devfetch",
+      "QuantFinal is a full-stack quant platform built to democratize institutional-grade trading tools. It features a hybrid event-driven backtesting engine with 11 built-in strategies, a Prompt-to-Strategy NLP pipeline powered by Gemini 2.5 Flash that turns plain English into fully executed backtests, a real-time sentiment analysis pipeline classifying macro regimes from live news, and a 10-signal portfolio rebalancer using HHI concentration analysis, Pearson correlation clustering, ATR-based trailing stops, and Kelly Criterion position sizing. Covers 2,300+ NSE/BSE securities across daily, weekly, and monthly timeframes.",
+    techStack: ["Python", "FastAPI", "React", "Gemini AI", "pandas", "TA-Lib"],
+    image: "/projects/quantfinal.png",
+    liveUrl: "",
+    githubUrl: "https://github.com/Haze-dev1/QuantFinal",
     featured: true,
-    color: "#ffe8d6",
-    borderColor: "#e8a87c",
+    color: "#e6f9f0",
+    borderColor: "#34d399",
   },
 ];
 
