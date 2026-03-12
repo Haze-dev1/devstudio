@@ -19,8 +19,8 @@ export const featuredProjects: Project[] = [
   },
   {
     id: "9",
-    slug: "quantfinal",
-    title: "QuantFinal 📈",
+    slug: "QuantLabs",
+    title: "QuantLabs 📈",
     description:
       "An algorithmic trading & portfolio intelligence platform — backtesting, NLP-driven strategy generation, sentiment analysis, and automated rebalancing for Indian equity markets.",
     longDescription:
