@@ -27,8 +27,8 @@ export const mainQuest: MainQuestExperience[] = [
     organization: "Daemons Build",
     duration: "March 2026 — Present",
     impactPoints: [
-      "Started a tech agency that partners with early-stage founders to design, build, and ship their MVPs end-to-end.",
-      "Personally own the technical architecture and delivery for client projects from initial scoping through to a live, deployable product.",
+      "A tech agency that partners with early-stage founders to design, build, and ship their MVPs end-to-end.",
+      "Own the technical architecture and delivery for client projects from initial scoping through to a live, deployable product.",
       "Built internal tooling and reusable project templates to streamline onboarding and cut delivery timelines across engagements.",
     ],
     techStack: [
