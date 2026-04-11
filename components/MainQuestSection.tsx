@@ -113,8 +113,12 @@ export default function MainQuestSection() {
           </p>
         </div>
 
-        {/* Main Quest Card */}
-        <MainQuestCard experience={mainQuest} />
+        {/* Main Quest Cards */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+          {mainQuest.map((experience) => (
+            <MainQuestCard key={experience.id} experience={experience} />
+          ))}
+        </div>
 
         {/* ─── Bottom note ─── */}
         <div className="mt-8 text-center">

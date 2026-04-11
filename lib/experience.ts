@@ -1,29 +1,69 @@
 import { MainQuestExperience, GuildActivity, DevSighting } from "@/types";
 
 // ─── Main Quest: Professional Work ───────────────────────────
-export const mainQuest: MainQuestExperience = {
-  id: "formos-studio",
-  role: "Founder",
-  organization: "Formos Studio",
-  organizationUrl: "https://formos.studio",
-  duration: "2025 — Present",
-  impactPoints: [
-    "Founded Formos Studio as an experimental lab for building privacy-first and crypto-native systems",
-    "Designed and developed Zord — a zero-knowledge powered KYC protocol on Solana",
-    "Architected smart contracts using Anchor with a focus on secure state design and composability",
-    "Explored decentralized identity, cryptographic primitives, and on-chain UX patterns",
-  ],
-  techStack: [
-    "Rust",
-    "Anchor",
-    "Solana",
-    "Zero Knowledge Proofs",
-    "TypeScript",
-    "React",
-  ],
-  emoji: "🧑‍💻",
-  stickyColor: "#fff9c4",
-};
+export const mainQuest: MainQuestExperience[] = [
+  {
+    id: "win-capital-funds",
+    role: "NLP Pipeline Lead Intern",
+    organization: "Win Capital Funds",
+    duration: "March 2026 — Present",
+    impactPoints: [
+      "Built the core NLP pipeline that powers the Capital Operating Platform, converting plain-English trading ideas into validated, executable strategy code through a multi-stage architecture.",
+      "Designed code validation and sandboxing layers to ensure every auto-generated strategy is safe for execution before reaching the live trading engine.",
+      "Established the strategy registry and templating system, enabling the team to version, reuse, and iterate on generated strategies across the platform.",
+    ],
+    techStack: [
+      "Python",
+      "NLP",
+      "Node.js",
+      "TypeScript",
+    ],
+    emoji: "📈",
+    stickyColor: "#e3f2fd",
+  },
+  {
+    id: "daemons-build",
+    role: "Co-Founder",
+    organization: "Daemons Build",
+    duration: "March 2026 — Present",
+    impactPoints: [
+      "Started a tech agency that partners with early-stage founders to design, build, and ship their MVPs end-to-end.",
+      "Personally own the technical architecture and delivery for client projects from initial scoping through to a live, deployable product.",
+      "Built internal tooling and reusable project templates to streamline onboarding and cut delivery timelines across engagements.",
+    ],
+    techStack: [
+      "Finance",
+      "Blockchain",
+      "AI",
+      "Architecture",
+    ],
+    emoji: "🏗️",
+    stickyColor: "#f3e5f5",
+  },
+  {
+    id: "formos-studio",
+    role: "Founder",
+    organization: "Formos Studio",
+    organizationUrl: "https://formos.studio",
+    duration: "2025 — Present",
+    impactPoints: [
+      "Founded Formos Studio as an experimental lab for building privacy-first and crypto-native systems",
+      "Designed and developed Zord — a zero-knowledge powered KYC protocol on Solana",
+      "Architected smart contracts using Anchor with a focus on secure state design and composability",
+      "Explored decentralized identity, cryptographic primitives, and on-chain UX patterns",
+    ],
+    techStack: [
+      "Rust",
+      "Anchor",
+      "Solana",
+      "Zero Knowledge Proofs",
+      "TypeScript",
+      "React",
+    ],
+    emoji: "🧑‍💻",
+    stickyColor: "#fff9c4",
+  }
+];
 
 // ─── Guild Activities: Leadership & Community Roles ──────────
 export const guildActivities: GuildActivity[] = [
